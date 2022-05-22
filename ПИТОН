@@ -1,0 +1,13 @@
+из datetime импортировать datetime
+время импорта
+i = float(input())
+b = float(input())
+c = float(input())
+start_time = datetime.now()
+сумма = 0.
+для x в диапазоне (99999999):
+ сумма = b*2+c-i
+z = i + сумма
+печать (z)
+time.sleep(5)
+print(datetime.now() - start_time)
